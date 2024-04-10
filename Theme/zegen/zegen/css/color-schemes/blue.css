@@ -1,0 +1,553 @@
+/* =============================================== */
+/* ---------------->>> COLORS STYLES <<<------------- */
+/* ================================================ */ 
+
+/* Zmm Wrapper */
+.close:before, .close:after {
+	background-color: #3498db;
+}
+.form-control:focus,
+.search-form-wrapper .form-control:focus,
+.overlay-search .search-form-wrapper .form-control:focus {
+    border-color: #3498db !important;
+}
+/* Page Title */
+.page-title-wrap:before {
+    background: #3498db;
+}
+/*Link Colors*/
+a:hover, a:active, a:focus, .post-meta li a:hover,
+.nav.author-social>li>a:hover {
+	color: #3498db;
+}
+.post-comments span.author:before, 
+.post-comments span.date:before, 
+a.comment-reply-link i, .blog-link .link:hover,
+.zig-zag-col .entry-meta i {
+    color: #3498db;
+}
+/*Bg Dark Colors*/
+.bg-theme {
+    background: #3498db;
+}
+.bg-semi-transparent-dark ul.nav.navbar-main > li > a:hover, 
+.bg-semi-transparent-dark .mega-dropdown .dropdown-menu > li > ul > li > a:hover,
+.bg-transparent.typo-white ul.nav.navbar-main > li > a:hover {
+	color: #3498db;
+}
+.bg-1 {
+    background-color: #00162FEB;
+}
+.bg-2 {
+    background-color: #3498dbD9;
+}
+.bg-3 {
+    background-color: #00162F;
+}
+/* Topbar Colors */
+.topbar a:hover, .topbar a:hover i, .header-1 .topbar.typo-white a:hover,
+.error-page > h1 {
+    color: #3498db;
+}
+.topbar.top-bar-bg-color {
+    background: #3498db;
+}
+/* Logobar Colors */
+.logobar .header-info a:hover {
+    color: #3498db;
+}
+/*Main Menu Colors*/
+.navbar ul.nav.navbar-main > li > a:hover, .navbar ul.nav.navbar-main > li.active > a,
+ul.nav.navbar-main.theme-main-menu > li > a.active, .navbar ul.nav.navbar-main.menu-white > li.active > a, .bg-dark .dropdown-menu > li.active > a,
+.dropdown-menu > li.active > a, .navbar ul.nav.navbar-main.menu-white > li.active > a:hover, 
+.header-sticky .navbar ul.nav.navbar-main.menu-white > li.active > a {
+	color: #3498db;
+}
+.mega-dropdown .dropdown-menu > li > ul > li > a:hover,
+.bg-dark .mega-dropdown .dropdown-menu > li > ul > li > a:hover,
+.sticky-main-wrapper ul.nav.navbar-nav > li > a:hover,
+.sticky-main-wrapper ul.nav.navbar-nav > li.active > a,
+.bg-dark .dropdown-menu > li > a:hover, .zmm-wrapper .zmm-dropdown-toggle {
+	color: #3498db;
+}
+.bg-dark .search-form .search-btn,
+.search-form .search-btn {
+	background: #3498db;
+}
+footer.bg-light a:hover, footer.bg-dark a:hover,
+footer.bg-overlay-dark a:hover, footer.bg-overlay-light a:hover,
+.sidebar .recent-posts .list-post a:hover,
+.sidebar .popular-posts .list-post a:hover {
+	color: #3498db;
+}
+/*Theme Colors*/
+.theme-color, 
+.typo-white .theme-color,
+.typo-dark .theme-color {
+	color: #3498db;
+}
+.themeh-color, 
+.typo-white .themeh-color,
+.typo-dark .themeh-color {
+	color: #3498db;
+}
+/*Gradient Colors*/
+.gradient-bg {
+    background: -webkit-linear-gradient(56deg, #3380de 35%, #3498db 65%);
+    background: linear-gradient(56deg, #3380de 35%, #3498db 65%);
+}
+.pricing-table-wrapper.pricing-style-1:hover .pricing-table-head, 
+.pricing-table-active.pricing-table-wrapper.pricing-style-1 .pricing-table-head {
+    background: -webkit-linear-gradient(-172deg, #3380de 35%, #3498db 65%);
+    background: linear-gradient(-172deg, #3380de 35%, #3498db 65%);
+}
+.pricing-style-1:hover .pricing-inner-wrapper > *:nth-child(2), .pricing-table-active.pricing-style-1 .pricing-inner-wrapper > *:nth-child(2),
+.pricing-style-1 .btn-default:hover {
+    background: -webkit-linear-gradient(-180deg, #3380de 40%, #3498db 90%) !important;
+    background: linear-gradient(-180deg, #3380de 40%, #3498db 90%) !important;
+}
+.blog-list-style-1 .blog-thumb:before,
+.blog-list-style-2 .blog-thumb:before {
+	background: linear-gradient(to bottom, rgba(51,128,222,0.8) 0%, rgba(0,96,214,0.8) 75%);
+    background: -webkit-linear-gradient(to bottom, rgba(51,128,222,0.8) 0%, rgba(0,96,214,0.8) 75%);
+    background: -moz-linear-gradient(to bottom, rgba(51,128,222,0.8) 0%, rgba(0,96,214,0.8) 75%);
+}
+.cobbles-overlay-wrap:before {
+    background: -webkit-linear-gradient(-150deg, #3380de 35%, #3498db 65%);
+    background: linear-gradient(-150deg, #3380de 35%, #3498db 65%);
+}
+.ministries-box-style-1 .ministries-icon {
+    background: -webkit-linear-gradient(-150deg, #3380de 35%, #3498db 65%);
+    background: linear-gradient(-150deg, #3380de 35%, #3498db 65%);
+}
+.team-style-2 .team-overlay .team-thumb:before {
+	background: linear-gradient(to bottom, rgba(51,128,222,0.8) 0%, rgba(0,96,214,0.8) 75%);
+    background: -webkit-linear-gradient(to bottom, rgba(51,128,222,0.8) 0%, rgba(0,96,214,0.8) 75%);
+    background: -moz-linear-gradient(to bottom, rgba(51,128,222,0.8) 0%, rgba(0,96,214,0.8) 75%);
+}
+/*Hover Colors*/
+.bg-dark a:hover, .typo-dark a:hover {
+	color: #3498db;
+}
+.typo-dark .btn:hover, .bg-dark .btn:hover {
+	color: #fff;
+}
+/* Hover Bg Colors*/
+.hvr-theme:hover {
+	background-color: #3498db;
+}
+/*Background Overlay Colors*/
+.theme-overlay {
+    background: rgba(0,21,47,0.86);
+}
+.theme-overlay2 {
+	background-color: rgb(7 14 32 / 82%);
+}
+
+/*Icon Colors*/
+.icon-theme, .day-count-icon > span {
+	color: #3498db;
+}
+.full-view-wrapper .close:before, .full-view-wrapper .close:after,
+.overlay-search .close:before, .overlay-search .close:after,
+.f-box-style-4 .feature-title:before, .events-title:before {
+    background: #3498db;	
+}
+/*Woo Commerce Colors*/
+.onsale, .cart-count {
+    background: #3498db;	
+}
+.product-details a:hover {
+	color: #3498db;
+}
+/*Social Icon Colors*/
+.social-icons.icons-circle a > span,
+.post-meta .social-icons.small.icons-circle a > span:hover,
+.social-icons.icons-squared a > span {
+    background: #3498db;
+}
+.header-inner .bg-dark .social-icons span:hover {
+	color: #3498db;
+}
+/*Button Colors*/
+.btn, button, .btn-default, .h-btn > .btn:hover,
+.header-1 .h-btn.btn-2 > .btn,
+.header-3 .sticky-head.header-sticky {
+    background: #3498db;
+}
+.btn-outline {
+    border-color: #3498db !important;
+}
+.header-1 .navbar .navbar-main.menu-white > li > a:hover,
+.header-1 .header-sticky .navbar .navbar-main.menu-white > li > a:hover {
+	color: #3498db !important;
+}
+.h-btn > .btn, .has-feedback.has-success .form-control-feedback {
+	color: #3498db !important;
+}
+.header-navbar-text-1 .h-donate-btn,
+.navbar .header-phone {
+    background: #3498db;
+}
+/*Border Colors*/
+.feature-box-wrap.f-box-style-3, .contact-form-3 .form-control:focus,
+.contact-form-3 .btn, . team-style-1 .form-control:focus,
+.contact-form-1 .btn, .contact-form-5 .form-control:focus,
+.contact-form-5 .btn, .h-btn > .btn:hover, 
+.team-style-3 .team-details {
+    border-color: #3498db;
+}
+.pricing-table-wrapper .btn:hover {
+	border: 2px solid #3498db;	
+ }
+.pricing-table-wrapper .btn:hover {
+	border: 1px solid #3498db;	
+ }
+.blog-single .blog-info-wrap blockquote.blockquote-2 {
+     border: 5px solid #3498db;
+}
+.dropdown:hover > .dropdown-menu {
+    border-top-color: #3498db;
+}
+.f-box-style-3 .feature-icon span,
+.single-portfolio .portfolio-meta {
+    background: #3498db;
+}
+.form-control:focus, .form-control:active {
+    border-bottom: solid 1px #3498db;
+}
+.blog-classic .blog-inner>.blog-thumb:before {
+    border-top-color: #3498db;
+    border-bottom-color: #3498db;
+}
+.blog-classic .blog-inner>.blog-thumb:after {
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #3498db;
+    border-left-color: #3498db;
+}
+.b-dot {
+    border: dotted #3498db;
+}
+.feature-box-wrap.f-box-style-2:after {
+    border-bottom-color: #3498db;
+}
+.border-bottom, .border-top1 {
+    background: #3498db;
+}
+.br-dotted {
+	border: 10px dotted #3498db;
+}
+.br-solid {
+	border: 8px solid #3498db;
+}
+/*Owl Slider Colors*/
+.typo-dark .owl-dot.active span,
+.typo-white .owl-dot.active span,
+.owl-dot.active span,
+.owl-carousel .owl-nav button.owl-next:hover, 
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: #3498db;
+}
+.typo-dark .owl-dot.active span,
+.typo-white .owl-dot.active span,
+.owl-dot.active span,
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev {
+    color: #3498db;
+}
+.typo-white .owl-carousel .owl-nav button.owl-next span, 
+.typo-white .owl-carousel .owl-nav button.owl-prev span {
+    color: #3498db;
+}
+.owl-dot.active span,
+.owl-prev span:after,
+.owl-next span:after {
+    background: #3498db;
+}
+/* Portfolio Colors*/
+.portfolio-icons a {
+    background: #3498db;
+}
+.portfolio-filter > ul > li.active > a, span.portfolio-meta-icon,
+.custom-post-nav a:hover i {
+    color: #3498db;
+}
+.portfolio-filter.portfolio-filter-2 > ul > li > a:before,
+.portfolio-default .portfolio-item .portfolio-icons a,
+.portfolio-classic .portfolio-overlay-wrap .portfolio-icons a {
+    background: #3498db;
+}
+/*Team Colors*/
+.team-style-7 .team-details > .bottom-dot,
+.team-style-1 .team-thumb:after {
+    background: #3498db;
+}
+.team-style-1 .team-details::before {
+    border-bottom-color: #3498db !important;
+}
+.team-inner .team-overlay {
+	background: rgba(0,21,47,0.8);
+}
+.team-style-1 .team-inner .team-overlay-details .social-icons a:hover span {
+    color: #3498db;
+}
+/*Testimonials Colors*/
+.quote:before, .testimonials-style-1 .testimonials-thumb:before {
+    background: #3498db;
+}
+.testimonials-style-1 .testimonials-desc .blockquote-1:before {
+    color: #3498db;
+}
+.testimonials-style-1 .testimonials-desc::before {
+    color: #3498db;
+}
+/*Blog Colors*/
+.blog-style-1 .blog-inner .blog-link a.link, 
+.blog-style-2 .blog-inner .blog-link a.link,
+.blog-style-3 .blog-inner .blog-link a.link,
+.blog-style-3 .blog-details .post-date i,
+.blog-single .post-meta ul li a:hover,
+.blog-single .post-meta .social-icons a > span::before,
+.post-navigation-wrapper a.prev h4:hover, .post-navigation-wrapper a.next h4:hover {
+	color: #3498db;
+}
+.blog-style-1 .blog-inner .top-meta .post-date a,
+.blog-style-2 .blog-details .post-date a,
+.post-navigation-wrapper .prev-nav-link .post-nav-text, 
+.post-navigation-wrapper .next-nav-link .post-nav-text {
+	background: #3498db;
+}
+.post-navigation-wrapper {
+	border: solid 2px #3498db;
+}
+/*Featurebox Colors*/
+.feature-title-4 a, span.feature-count,
+.f-box.c-page .feature-content a:hover, .feature-box-btn .btn-link,
+.f-box-style-2:hover .f-box-inner .btn-link:hover, .f-list-4 a:hover,
+.contact-info.info-2 .f-list-4 .feature-list-icon span {
+	color: #3498db;
+}
+.f-box-style-1 .feature-box-details .feature-icon span,
+.f-list-2.feature-list-icon span,
+.f-list-4 .feature-list-icon span,
+.f-list-5 .feature-list-icon span,
+.contact-info.info-2 .f-list-4:hover .feature-list-icon span {
+	background: #3498db;
+}
+.f-box-style-3::after {
+    background-color: #3498db;
+}
+.feature-box-wrap.f-box-style-4:hover,
+.feature-box-wrap.f-box-style-4:hover .feature-icon::before {
+    background-color: #3498db;
+}
+.feature-box-wrap.f-box-style-4:hover .feature-icon::before {
+    border: solid 6px #3498db;
+}
+.flip-box-inner.imghvr-flip-3d-horz .flip-box-front,
+.flip-box-inner.imghvr-flip-3d-horz .flip-box-back .flip-box-title:after,
+.feature-box-wrap.f-box-style-2:hover .feature-icon span {
+	background-color: #3498db;
+}
+.flip-box-inner.imghvr-flip-3d-horz .flip-box-back .flip-box-title,
+.feature-box-wrap.f-box-style-2 .feature-icon span,
+.feature-box-wrap.f-box-style-2 .feature-btn a {
+	color: #3498db;
+}
+.ft-border {
+    border: 15px solid #3498db;
+}
+.bg-ct1 {
+    background-color: #00162F;
+}
+.bg-ct2 {
+    background-color: #00162FF7;
+}
+/*Timeline Colors*/
+.timeline-left .timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-color: #3498db;
+    border-right-color: #3498db;
+}
+.timeline-left .timeline > li > .timeline-sep-title > .timeline-top-title {
+    color: #3498db;
+}
+/*Ministries Shortcode*/
+.ministries-category-list a:hover,
+.ministries-category-list .active a,
+.ministries-box-style-2 .ministries-icon-img-wrap img {
+    background: #3498db;
+}
+.ministries-box-style-2 .ministries-link .link {
+    color: #3498db;
+}
+.ministries-box-style-2 {
+	border-bottom-color: #3498db !important;
+}
+
+.ministries-box-style-3 .ministries-title:before {
+	background: #3498db;
+}
+.ministries-box-style-3::before {
+    border-top: 4px solid #3498db;
+    border-bottom: 4px solid #3498db;
+}
+.ministries-box-style-3::after {
+	border-left: 4px solid #3498db;
+    border-right: 4px solid #3498db;
+}
+.ministries-box-style-4 .invisible-number {
+	background: #3498db;
+}
+/*Events Shortcode*/
+.events-style-1 .events-item .event-date,
+.events-style-1 .events-item .read-more a,
+.events-style-2 .events-details .event-date,
+.events-style-2 .events-details .read-more a,
+.events-style-3 .events-details .read-more a,
+.events-style-4 .events-details .read-more a {
+    color: #3498db;
+}
+.events-style-1 .events-item .event-date::before,
+.events-style-1 .events-item .event-date::after,
+.events-style-2 .events-details .event-date::before,
+.events-style-2 .events-details .event-date::after,
+.events-style-3 .events-inner .event-date,
+.events-style-4 .events-inner .event-date {
+	background: #3498db;
+}
+.events-style-4 .events-inner .events-details .event-title {
+	border-left: dotted 4px #3498db;
+}
+.event-info h4, .event-venue h4, .event-contact-title h4 {
+    background-color: #3498db;
+}
+/*Blog Shortcode*/
+.tag-cloud a.tag-cloud-link:hover,
+.blog-grid .post-meta li a.author-name,
+.blog-list .blog-inner .post-date a {
+    background: #3498db;
+}
+.blog-list .blog-link a {
+    border-bottom: solid 2px #3498db;
+}
+.category-list > li {
+    border-bottom: 1px dashed #eaeaea;
+}
+.category-list > li > a:before,
+.blog-list .blog-link .link {
+    color: #3498db;
+}
+/*Accordion Shortcode*/
+.accordion-style-2 .card.accordion-panel .card-inner {
+	border-top: 3px solid #3498db;
+}
+/*Counter Colors*/
+span.v-border, .counter-value.h-border:before {
+    background: #3498db;
+}
+/*Day Counter Colors*/
+.day-counter-2 .counter-elements::after,
+.day-counter-3 .counter-elements::after {
+    background: rgba(52,152,219,0.1);
+}
+/*Tab Colors*/
+
+.tab-body.tab-style-3 .nav-tabs .nav-link.active::after {
+    border-top-color: #3498db;
+}
+.tab-body.tab-style-5 .nav-tabs .nav-link.active {
+    color: #3498db;
+}
+/*Progress Colors*/
+.progress-bar,
+.campaigns-link a {
+    background: #3498db;
+}
+.campaign-time-left .days-left {
+	color: #3498db;
+}
+/*Footer Colors*/
+.footer-middle-wrap .widget-title .title::before,
+.footer-middle-wrap .widget-title .title::after,
+.v-sticky-main-wrapper .widget-title .title::after,
+.v-sticky-main-wrapper .widget-title .title::before {
+	background: #3498db;
+}
+.menu-quick-links ul li a:before,
+.recent-posts .footer-list-posts > li .post-date::before,
+.footer-text a {
+	color: #3498db;
+}
+/*Widget Colors*/
+.contact-widget-info>p>span:before,
+.side-noimg span {
+	color: #3498db;
+}
+.sidebar .widget-title .title:before,
+.sidebar .widget-title .title:after,
+.subscribe-form .input-group-btn button {
+    background: #3498db;
+}
+/*Selectors Colors*/
+::selection {
+	background: #3498db;
+    color: #fff;
+    text-shadow: none;                                                                  
+}
+::-moz-selection {
+    background: #3498db;
+    color: #fff;
+    text-shadow: none;
+}
+::-webkit-selection {
+    background: #3498db;
+    color: #fff;
+    text-shadow: none;
+}
+.video-icon a.popup-youtube,
+.video-icon a.popup-youtube::before,
+.video-icon a.popup-youtube::after {
+	background: #3498db;
+}
+.sermon-view-wrapper,
+.sermon-play-list li a, .sermon-tool-list li a,
+.nav.pagination > li.nav-item a,
+.sermon-grid-2 .sermon-inner .sermon-link > a {
+	background: #3498db;
+}
+.sermon-info a, .sermon-grid-2 .sermon-inner .sermon-link > a.btn-link,
+.single-sermon .sermon-play-list li a:hover i, 
+.single-sermon .sermon-tool-list li a:hover i {
+    color: #3498db;
+}
+.donate-form .donation-fields .donation_amount:checked{
+    background: #3498db;
+}
+/* new*/
+.ministries-box-style-2 .ministries-inner .ministries-thumb::before {
+	background-color: rgba(52,152,219,0.88);
+}
+.theme-overlay3 {
+	background: rgba(52,152,219,0.89);
+}
+.Concept-SubTitle{
+	color:#3498db;
+}a
+.rev-btn {
+    background-color: #3498db!important;
+}
+.events-style-1 .events-item .event-date, .events-style-2 .events-details .event-date {
+	background: rgba(52,152,219,0.13);
+}
+.ministries-box-style-2 .ministries-inner .ministries-thumb::before {
+    background-color: rgba(52,152,219,0.88);
+}
+.side-noimg{
+	background: rgb(52,152,219, 0.8);
+}
+.header-4 .main-logo::before{
+	background: #3498db;
+}
