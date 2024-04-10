@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-   "type": "module",
-   "scripts": {
-     "dev" :"node --watch server.js"
-   },
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "deploy": "node  server.js"
+
+  },
   "dependencies": {
     "express": "^4.19.2",
     "nunjucks": "^3.2.4"
