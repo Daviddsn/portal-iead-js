@@ -30,14 +30,14 @@ server
 .use(routes);
 
 
-const porta = process.env.PORT_APP || 8443
+const porta = process.env.PORT_APP || 4000
 
 
 
-// server.listen(porta, () => console.log( "Servidor Rodando na porta " + porta))
+server.listen(porta, () => console.log( "Servidor Rodando na porta " + porta))
 
 
-https.createServer(credentials , server).listen(porta, () => console.log( "Servidor Rodando na porta " + porta))
+// https.createServer(credentials , server).listen(porta, () => console.log( "Servidor Rodando na porta " + porta))
 
 
 
