@@ -10,7 +10,7 @@ import {menuData} from './shared.js';
 
 const server = express()
 
-const env  = nunjucks.configure('src/views', {
+const env  = nunjucks.configure('./src/views', {
     express: server,
     autoescape: true,
     noCache: true,
