@@ -6,7 +6,7 @@
         "use": "@vercel/node"
       },
       {
-        "src": "public",
+        "src": "public/",
         "use": "@vercel/static"
       }
     ],
@@ -18,7 +18,8 @@
       }
     ],
     "buildCommand": "yarn run deploy",
-    "outputDirectory": "public"
+    "installCommand": "yarn install"
+    
 
 
   }
