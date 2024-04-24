@@ -4,7 +4,7 @@ import nunjucks from 'nunjucks';
 import { routes } from "./router.js";
 import fs from 'node:fs'
 
-import {menuData} from './src/shared.js';
+import {menuData} from './shared.js';
 
 
 

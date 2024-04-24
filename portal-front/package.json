@@ -5,8 +5,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "node --watch server.js",
-    "deploy": "node  server.js"
+    "dev": "node --watch src/server.js",
+    "deploy": "node  src/server.js"
 
   },
   "dependencies": {

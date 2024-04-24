@@ -6,7 +6,7 @@ import {
     pageAbout,
     pageEventDetails,
     pageEvent
-} from './src/pages.js'
+} from './pages.js'
 
 
 routes.get('/', pageHome);
