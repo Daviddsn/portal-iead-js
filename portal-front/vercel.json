@@ -15,5 +15,7 @@
         "src": "/(.*)",
         "dest": "server.js"
       }
-    ]
+    ],
+
+    "outputDirectory": "public"
   }
