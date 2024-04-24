@@ -4,6 +4,8 @@ import nunjucks from 'nunjucks';
 import { routes } from "./router.js";
 import fs from 'node:fs'
 
+import {menuData} from './src/shared.js';
+
 
  var privateKey = fs.readFileSync('certificados/localhost.key', 'utf8');
 
@@ -12,11 +14,13 @@ var certificate = fs.readFileSync('certificados/server.crt', 'utf8');
 var credentials = { key: privateKey, cert: certificate };
 const server = express()
 
-nunjucks.configure('src/views', {
+const env  = nunjucks.configure('src/views', {
     express: server,
     autoescape: true,
     noCache: true,
 })
+
+env.addGlobal('menuData', menuData)
 
 
 
