@@ -1,21 +1,15 @@
-import { PlusCircledIcon } from "@radix-ui/react-icons"
 
-import { Button } from "../ui/button"
 import { ScrollArea, ScrollBar } from "../ui/scroll-area"
 import { Separator } from "../ui/separator"
 import {
   Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
+  TabsContent
 } from "../ui/tabs"
 
+import { listenNowAlbums, madeForYouAlbums } from "../../data/albums"
 import { AlbumArtwork } from "../Album/index"
-import { Menu } from "../Menu/index"
 import { PodcastEmptyPlaceholder } from "../Podcast/index"
 import { Sidebar } from "../Sidebar/index"
-import { listenNowAlbums, madeForYouAlbums } from "../../data/albums"
-import { playlists } from "../../data/playlists"
 
 export function MusicPage() {
   return (
@@ -37,31 +31,13 @@ export function MusicPage() {
         />
       </div>
       <div className="hidden md:block">
-        <Menu />
         <div className="border-t">
           <div className="bg-background">
             <div className="grid lg:grid-cols-5">
-              <Sidebar playlists={playlists} className="hidden lg:block" />
+              <Sidebar />
               <div className="col-span-3 lg:col-span-4 lg:border-l">
                 <div className="h-full px-4 py-6 lg:px-8">
                   <Tabs defaultValue="music" className="h-full space-y-6">
-                    <div className="space-between flex items-center">
-                      <TabsList>
-                        <TabsTrigger value="music" className="relative">
-                          Music
-                        </TabsTrigger>
-                        <TabsTrigger value="podcasts">Podcasts</TabsTrigger>
-                        <TabsTrigger value="live" disabled>
-                          Live
-                        </TabsTrigger>
-                      </TabsList>
-                      <div className="ml-auto mr-4">
-                        <Button>
-                          <PlusCircledIcon className="mr-2 h-4 w-4" />
-                          Add music
-                        </Button>
-                      </div>
-                    </div>
                     <TabsContent
                       value="music"
                       className="border-none p-0 outline-none"
